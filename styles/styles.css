@@ -5,10 +5,39 @@
 ul {
     list-style: none;
     padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    width: 70%;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul>li>a:hover{
+    text-decoration: underline;
 }
 
 h3{
     font-size: 1rem !important;
+}
+
+form{
+    width: 100%;
+}
+
+#contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
@@ -17,6 +46,12 @@ footer {
     justify-content: space-around;
     border-radius: 5px;
     align-items: center;
+}
+
+section>h2{
+    padding-left: 2vw !important;
+    font-size: 3rem;
+    text-align: center;
 }
 
 button {
@@ -28,11 +63,16 @@ button {
     position: relative;
 }
 
-.product-card {
-    border: 2px solid grey;
-    background-color: rgb(231, 237, 242);
-    margin-bottom: 20px;
-    padding: 15px;
+.image-container>img{
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.presentation{
+    background: linear-gradient(rgb(244, 128, 147), rgb(204, 122, 236));
+    border-radius: 20px;
+    width: 40% !important;
 }
 
 #contactPhoto {
@@ -42,8 +82,153 @@ button {
     border-radius: 16% 70% / 50% 67%;
 }
 
+
+#contacto, #introduccion{
+    background-color: #9dc7eb;
+}
+
+.carousel-banner{
+    aspect-ratio: 1 / 1;
+    background-color: blue;
+    background: linear-gradient(pink, hotpink);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.carousel-banner>div{
+    color: whitesmoke;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.500);
+    font-weight: 900;
+    text-transform: uppercase;
+    display: none;
+}
+.carousel-banner>img{
+    max-width: 10%;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+#logo{
+    max-width: 100px;
+    filter: drop-shadow(2px 2px 5px black);
+}
+
+.cr-slide-1{
+    background-image: url('../assets/12-cuotas.png');
+    width: 100%;
+    height: 700px;
+} 
+.cr-slide-2{
+    background-image: url('../assets/promo-visa.png');    
+    width: 100%;
+    height: 700px;        
+}
+.cr-slide-3{
+    background-image: url('../assets/lanzamientos.png');   
+    width: 100%;
+    height: 700px;             
+}
+
+#productos{
+    background: linear-gradient(0.25turn, #73adff, #ebf8e1, #f3f072);
+
+}
+
+.card-custom {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+    background: linear-gradient(0.25turn, #d7dee1, #ebf8e1, #a1a597);
+    text-align: center;
+}
+.card-custom:hover {
+    transform: scale(1.05);
+}
+.card-custom img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    object-fit: cover;
+    width: 40%;
+    margin: 0 auto;
+}
+.card-body-custom {
+    padding: 20px;
+}
+.card-title-custom {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-text-custom {
+    color: #1d84df;
+}
+.btn-custom {
+    background-color: #479376 !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 10px 20px !important;
+    transition: background-color 0.2s !important;
+    width: 40% !important;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+.credit-card>img{
+    width: 20%
+}
+
 @media (max-width: 767px) {
     footer {
         flex-direction: column;
     }
+    #novedades{
+        display: none;
+    }
+
+    .image-container>img{
+        width: 70%;
+    }
+
+    .presentation{
+        width: 80% !important;
+    }
+    .btn-custom{
+        width: 100%;
+    }
+
+    .reserva{
+        font-size: 0.7rem;
+    }
+    #logo{
+        max-width: 50px;
+    }
+    .cards-container{
+        width: 50%;
+    }
+
+    .credit-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .credit-card>img{
+        width: 30%;
+    }
 }
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .presentation{
+        width: 80% !important;
+    }
+
+    .btn-custom{
+        width: 100%;
+    }
+
+}
+
