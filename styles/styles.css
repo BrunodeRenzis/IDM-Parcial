@@ -230,5 +230,9 @@ button {
         width: 100%;
     }
 
+    #novedades{
+        display: none;
+    }
+
 }
 
