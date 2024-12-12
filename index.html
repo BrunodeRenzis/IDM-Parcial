@@ -10,9 +10,9 @@
   </head>
   <body>
     <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary w-100">
+      <nav class="navbar navbar-expand-lg w-100">
         <div class="container-fluid">
-          <h1><img src="./assets/logo.png" class="mx-4" id="logo" alt="" srcset=""></h1>
+          <h1><img src="./assets/logo.png" class="mx-4" id="logo" alt="Storetion"></h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,12 +39,11 @@
       </nav>
 
     </header>
-    <div class="container-fluid bg-light">
+    <div class="container-fluid">
       <main class="container mt-4">
-        <h2 class="text-center p-2 text-white bg-secondary rounded">Tienda oficial de Boss Y Vox</h2>
         <section id="introduccion">
           <h2>Introducción</h2>
-          <article class="container  my-4 d-flex justify-content-center pt-2 rounded">
+          <article class="container my-4 d-flex justify-content-center pt-2 rounded">
             <p class="text-center fw-bold w-75 text-center ">
               <span>La empresa Storetion es una tienda especializada en venta y servicio técnico de pedales y efectos de sonido oficial de Boss.</span><br>
               <span>Somos el primer distribuidor y servicio técnico oficial en Argentina, desde el año 2000 acompañando a nuestros músicos brindando los últimos lanzamientos y un servicio técnico de primera calidad.</span><br>
@@ -52,23 +51,23 @@
             </p>
           </article>
         </section>
-        <section id="novedades">
+        <section id="novedades" class="mt-4">
           <article class="carousel slide" data-bs-ride="carousel" id="slider">
             <div class="carousel-inner">
-                <div class="carousel-item active" title="Etiqueta semántica equivalente a imagen">
+                <div class="carousel-item active" title="Item carrousel">
                     <div class="carousel-banner cr-slide-1">
-                      <img src="./assets/logo.png" alt="" srcset="">
+                      <img src="./assets/logo.png" alt="StoreTion">
                     </div>
                 </div>
-                <div class="carousel-item" title="Etiqueta semántica equivalente a imagen">
+                <div class="carousel-item" title="Item carrousel">
                     <div class="carousel-banner cr-slide-2">
-                      <img src="./assets/logo.png" alt="" srcset="">
+                      <img src="./assets/logo.png" alt="StoreTion">
                     </div>
                 </div>
-                <div class="carousel-item" title="Etiqueta semántica equivalente a imagen">
+                <div class="carousel-item" title="Item carrousel">
                     <a target="_blank" href="./lanzamiento/lanzamiento.html">
                       <div class="carousel-banner cr-slide-3">
-                        <img src="./assets/logo.png" alt="" srcset="">
+                        <img src="./assets/logo.png" alt="StoreTion">
                       </div>
                     </a>
                 </div>
@@ -89,153 +88,168 @@
             </div>
           </article>
         </section>
+          <div class="container">
+
           <section id="productos" class="row mx-4">
-            <h2>Productos</h2>
+            <h2 class="text-white mt-4">Productos</h2>
             <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-              <div class="card background-card card-custom">
-                  <img src="./assets/delay.png" class="card-img-top" alt="Image">
+              <div class="card background-card card-custom producto">
+                  <img src="./assets/delay.png" class="card-img-top" alt="Delay">
                   <div class="card-body card-body-custom">
-                      <h3 class="card-title card-title-custom">Boss Delay</h3>
-                      <h4 class="card-title card-title-custom">Stock: 5</h4>
-                      <h5 class="card-title card-title-custom">$159999</h5>
-                      <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto Boss delay permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                      <h3 class="card-title card-title-custom">Boss - Delay</h3>
+                      <hr>
+                      <p class="card-title card-title-custom">Unidades: 5</p>
+                      <p class="card-title card-title-custom">$159999</p>
+                      <p class="card-text card-text-custom descripcion">El efecto Boss delay permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                       <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                   </div>
               </div>
             </article>
 
            <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/Harmonist.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/Harmonist.png" class="card-img-top" alt="Harmonist">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Harmonist</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$150000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto Harmonist permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Harmonist</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$150000</p>
+                    <p class="card-text card-text-custom descripcion">El efecto Harmonist permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
+
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
 
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/octavador.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/octavador.png" class="card-img-top" alt="Octavador">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Octave</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$140000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto octavador permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Octave</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$140000</p>
+                    <p class="card-text card-text-custom descripcion">El efecto octavador permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
 
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/Compression-sustainer.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/Compression-sustainer.png" class="card-img-top" alt="Sustainer">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Compression Sustainer</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$200000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El Compression permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Compression Sustainer</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$200000</p>
+                    <p class="card-text card-text-custom descripcion">El Compression permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
 
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/line-selector.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/line-selector.png" class="card-img-top" alt="Line Selector">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Line Selector</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$200000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El line selector permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Line Selector</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$200000</p>
+                    <p class="card-text card-text-custom descripcion">El line selector permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/metal-zone.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/metal-zone.png" class="card-img-top" alt="Metal Zone">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Metal Zone</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$150000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El metal zone permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Metal Zone</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$150000</p>
+                    <p class="card-text card-text-custom descripcion">El metal zone permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
 
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/reverb.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/reverb.png" class="card-img-top" alt="Reverb">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Reverb</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$200000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto reverb permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Reverb</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$200000</p>
+                    <p class="card-text card-text-custom descripcion">El efecto reverb permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/loop-station.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/loop-station.png" class="card-img-top" alt="Loop Station">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Loop Station</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$350000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto Loop permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Boss - Loop Station</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Proximamente</p>
+                    <div class="containerPrecio">
+                      <p class="card-title card-title-custom descuento">$350000</p>
+                      <p class="card-title card-title-custom precioFinal">$300000</p>
+                    </div>
+                    <p class="card-text card-text-custom descripcion">El efecto Loop permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Reserva ya</a>
                 </div>
             </div>
           </article>
           <article class="col-12 col-md-6 col-lg-4 col-xl-4 my-md-1 my-3 my-lg-4 my-xl-4">
-            <div class="card background-card card-custom">
-                <img src="./assets/wah-wah-vox.png" class="card-img-top" alt="Image">
+            <div class="card background-card card-custom producto">
+                <img src="./assets/wah-wah-vox.png" class="card-img-top" alt="Vox wah wah">
                 <div class="card-body card-body-custom">
-                    <h3 class="card-title card-title-custom">Wah Wah Vox</h3>
-                    <h4 class="card-title card-title-custom">Stock: 5</h4>
-                    <h5 class="card-title card-title-custom">$300000</h5>
-                    <p class="card-text card-text-custom"><h6 class="card-text card-text-custom">El efecto wah permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</h6></p>
+                    <h3 class="card-title card-title-custom">Vox - Wah Wah</h3>
+                    <hr>
+                    <p class="card-title card-title-custom">Unidades: 5</p>
+                    <p class="card-title card-title-custom">$300000</p>
+                    <p class="card-text card-text-custom descripcion">El efecto wah permite permite alterar el sonido de tu instrumento y, de esta manera, explorar nuevas posibilidades sonoras.</p>
                     <a href="./lanzamiento/lanzamiento.html" class="btn btn-custom">Comprar</a>
                 </div>
             </div>
           </article>
+        </section>
+      </div>
 
-          </section>
-
-          <section id="pagos">
-            <h2>Medios de pago disponibles</h2>
+          <section id="pagos" class="my-4">
+            <h2 class="text-white">Medios de pago disponibles</h2>
             <article class="container">
               <div class="cards-container d-flex flex-wrap flex-column flex-md-row flex-lg-row flex-xl-row justify-content-evenly align-items-center mx-auto">
-                <img src="./assets/visa_payment_method_card_icon_142746.png" alt="" srcset="">
-                <img src="./assets/mc_symbol_opt_53_3x.png" alt="" srcset="">
-                <img src="./assets/amex_payment_method_icon_142759.png" alt="" srcset="">
-                <img src="./assets/mercadopago_logo_icon_248494.png" alt="" srcset="">
+                <img src="./assets/visa_payment_method_card_icon_142746.png" alt="Visa">
+                <img src="./assets/mc_symbol_opt_53_3x.png" alt="Master Card">
+                <img src="./assets/amex_payment_method_icon_142759.png" alt="American Express">
+                <img src="./assets/mercadopago_logo_icon_248494.png" alt="Mercado Pago">
               </div>
             </article>
           </section>
 
           <section id="contacto">
-            <h2 class="pl-2">Contactanos</h2>
+            <h2 class="mt-4">Contactanos</h2>
             <form action="#" method="post" class="row px-4 py-4">
                 <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6">
-                    <label for="nombre">Nombre</label>
+                    <label for="nombre" class="form-label">Nombre</label>
                     <input class="form-control form-control-lg" placeholder="Ingrese su nombre" type="text" id="nombre" name="nombre">
-                    <p class="form-text">Ingrese su nombre con mayúscula en su inicial</p>
+                    <p class="form-text">*Ingrese su nombre con mayúscula en su inicial</p>
                 </div>
                 <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6">
-                    <label for="apellido">Apellido</label>
+                    <label for="apellido" class="form-label">Apellido</label>
                     <input class="form-control form-control-lg" placeholder="Ingrese su apellido" type="text" id="apellido" name="apellido">
-                    <p class="form-text">Ingrese su apellido con mayúscula en su inicial</p>
+                    <p class="form-text">*Ingrese su apellido con mayúscula en su inicial</p>
                 </div>
                 <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6">
                     <label for="email" class="form-label">Email</label>
                     <input class="form-control form-control-lg" placeholder="Ingrese su email" type="text" id="email" name="email">
-                    <p class="form-text">Ingrese su email sin mayúsculas</p>
+                    <p class="form-text">*Ingrese su email sin mayúsculas</p>
                 </div>
                 <div class="form-group col-12 col-md-6 col-lg-6 col-xl-6">
                     <label for="servicio" class="form-label">Servicio</label>
@@ -243,7 +257,7 @@
                         <option value="servicio-tecnico">Servicio Técnico</option>
                         <option value="comprar-productos">Comprar Productos</option>
                     </select>
-                    <p class="form-text">Seleccione el motivo de su consulta</p>
+                    <p class="form-text">*Seleccione el motivo de su consulta</p>
                 </div>
                 <div class="form-group ">
                   <label for="comentario">Escriba su consulta</label>
